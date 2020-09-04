@@ -31,7 +31,8 @@ Page({
     autoLogin(code) {
         console.log(code);
         sandBox.post({
-            api: 'api/oauth/MiniProgramLogin',
+            // api: 'api/oauth/MiniProgramLogin/',
+            api: 'api/oauth/miniprogram/login/',
             data: {
                 code: code
             },
